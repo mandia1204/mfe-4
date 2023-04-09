@@ -1,0 +1,14 @@
+<div>
+  header from app4
+
+  title: {{ title }}
+
+  <dx-data-grid
+    id="gridContainer"
+    [dataSource]="customers"
+    keyExpr="ID"
+    [columns]="['CompanyName', 'City', 'State', 'Phone', 'Fax']"
+    [showBorders]="true"
+  >
+  </dx-data-grid>
+</div>
